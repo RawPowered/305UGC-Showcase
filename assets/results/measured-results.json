@@ -1,0 +1,232 @@
+{
+  "captured_on": "2026-10-24",
+  "timeline": {
+    "first_observed_facebook_entry": "2026-08-07",
+    "first_text_promotion_observed": "2026-09-22",
+    "first_blog": "2026-09-22",
+    "last_blog": "2026-09-29",
+    "latest_facebook_post_observed": "2026-09-29",
+    "later_homepage_seo_release": "2026-10-11"
+  },
+  "search_console": {
+    "data_start": "2026-09-21",
+    "data_end": "2026-10-22",
+    "site_clicks": 7,
+    "site_impressions": 1197,
+    "ctr_percent": 0.5847953216374269,
+    "reported_average_position": 46.3,
+    "daily": [
+      {
+        "date": "2026-09-21",
+        "clicks": 0,
+        "impressions": 15
+      },
+      {
+        "date": "2026-09-22",
+        "clicks": 0,
+        "impressions": 10
+      },
+      {
+        "date": "2026-09-23",
+        "clicks": 0,
+        "impressions": 11
+      },
+      {
+        "date": "2026-09-24",
+        "clicks": 0,
+        "impressions": 39
+      },
+      {
+        "date": "2026-09-25",
+        "clicks": 0,
+        "impressions": 53
+      },
+      {
+        "date": "2026-09-26",
+        "clicks": 0,
+        "impressions": 36
+      },
+      {
+        "date": "2026-09-27",
+        "clicks": 0,
+        "impressions": 36
+      },
+      {
+        "date": "2026-09-28",
+        "clicks": 0,
+        "impressions": 46
+      },
+      {
+        "date": "2026-09-29",
+        "clicks": 0,
+        "impressions": 34
+      },
+      {
+        "date": "2026-09-30",
+        "clicks": 0,
+        "impressions": 31
+      },
+      {
+        "date": "2026-10-01",
+        "clicks": 0,
+        "impressions": 63
+      },
+      {
+        "date": "2026-10-02",
+        "clicks": 2,
+        "impressions": 37
+      },
+      {
+        "date": "2026-10-03",
+        "clicks": 1,
+        "impressions": 37
+      },
+      {
+        "date": "2026-10-04",
+        "clicks": 0,
+        "impressions": 41
+      },
+      {
+        "date": "2026-10-05",
+        "clicks": 1,
+        "impressions": 45
+      },
+      {
+        "date": "2026-10-06",
+        "clicks": 0,
+        "impressions": 33
+      },
+      {
+        "date": "2026-10-07",
+        "clicks": 0,
+        "impressions": 44
+      },
+      {
+        "date": "2026-10-08",
+        "clicks": 0,
+        "impressions": 45
+      },
+      {
+        "date": "2026-10-09",
+        "clicks": 0,
+        "impressions": 26
+      },
+      {
+        "date": "2026-10-10",
+        "clicks": 0,
+        "impressions": 11
+      },
+      {
+        "date": "2026-10-11",
+        "clicks": 0,
+        "impressions": 42
+      },
+      {
+        "date": "2026-10-12",
+        "clicks": 0,
+        "impressions": 19
+      },
+      {
+        "date": "2026-10-13",
+        "clicks": 0,
+        "impressions": 48
+      },
+      {
+        "date": "2026-10-14",
+        "clicks": 0,
+        "impressions": 34
+      },
+      {
+        "date": "2026-10-15",
+        "clicks": 0,
+        "impressions": 51
+      },
+      {
+        "date": "2026-10-16",
+        "clicks": 0,
+        "impressions": 34
+      },
+      {
+        "date": "2026-10-17",
+        "clicks": 0,
+        "impressions": 34
+      },
+      {
+        "date": "2026-10-18",
+        "clicks": 0,
+        "impressions": 54
+      },
+      {
+        "date": "2026-10-19",
+        "clicks": 0,
+        "impressions": 43
+      },
+      {
+        "date": "2026-10-20",
+        "clicks": 0,
+        "impressions": 37
+      },
+      {
+        "date": "2026-10-21",
+        "clicks": 1,
+        "impressions": 48
+      },
+      {
+        "date": "2026-10-22",
+        "clicks": 2,
+        "impressions": 60
+      }
+    ]
+  },
+  "ga4": {
+    "start": "2026-09-22",
+    "end": "2026-10-23",
+    "sessions": 100,
+    "engaged_sessions": 55,
+    "engagement_rate_percent": 55,
+    "facebook_tagged_sessions": 35,
+    "facebook_mobile_referral_sessions": 1,
+    "facebook_combined_sessions": 36,
+    "google_organic_sessions": 3,
+    "direct_sessions": 55,
+    "unassigned_sessions": 6,
+    "tracked_key_events": 0
+  },
+  "periods": [
+    {
+      "label": "Publishing week",
+      "start": "2026-09-22",
+      "end": "2026-09-29",
+      "ga_days": 8,
+      "sessions": 58,
+      "engaged_sessions": 42,
+      "facebook_sessions": 18,
+      "google_organic_sessions": 0,
+      "gsc_days": 8,
+      "gsc_clicks": 0,
+      "gsc_impressions": 265
+    },
+    {
+      "label": "Following period",
+      "start": "2026-09-30",
+      "end": "2026-10-23",
+      "ga_days": 24,
+      "sessions": 42,
+      "engaged_sessions": 13,
+      "facebook_sessions": 18,
+      "google_organic_sessions": 3,
+      "gsc_days": 23,
+      "gsc_end": "2026-10-22",
+      "gsc_clicks": 7,
+      "gsc_impressions": 917
+    }
+  ],
+  "limits": [
+    "No reliable pre-campaign measurement baseline",
+    "No causal attribution or ROI claim",
+    "Traffic may include internal or development visits",
+    "GA4 and GSC reporting scopes and end dates differ",
+    "Zero tracked key events does not establish zero inquiries",
+    "Facebook dates are displayed dates; timezone was not independently verified"
+  ]
+}

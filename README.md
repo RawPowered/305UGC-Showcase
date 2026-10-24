@@ -6,7 +6,7 @@
 
 ![305UGC portfolio case study](assets/305ugc-cover.svg)
 
-<p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
+<p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#early-measured-results">Measured results</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
 
 > **About the visuals:** website and quote-form captures show the public 305UGC site on October 24, 2026. PowerPortals workflow screens show an isolated shared-platform installation with fictional records. Operational acceptance is tracked separately in the [evidence notes](docs/PROJECT-STATUS.md).
 
@@ -67,7 +67,27 @@ The newest public article found is dated September 29. Continuing the editorial 
 
 [Explore SEO, publishing history, crawler files and ARIA →](docs/SEO-ACCESSIBILITY-AND-DETAIL.md)
 
+## Early measured results
+
+The work now has an initial measurement record from **Google Analytics, Google Search Console and Facebook**, captured October 24. The first observed Facebook entries date to August 7; the focused blog and promotional push ran September 22–29. Later site SEO changes are annotated separately.
+
+![305UGC early results: search exposure, clicks and website traffic during and after publishing](assets/results/measured-results.png)
+
+| Observed result | Reporting scope |
+|:---|:---|
+| **1,197 Google Search impressions · 7 clicks** | Search Console site totals, September 21–October 22 |
+| **100 website sessions · 55 engaged sessions** | GA4, September 22–October 23; all reported sources |
+| **36 Facebook-attributed sessions** | 35 tagged social sessions + 1 mobile Facebook referral |
+| **11 article URLs with search exposure** | Inspected page table: 94 page-level impressions and 1 click; separate from site totals |
+
+During the eight-day publishing push, GA4 recorded **58 sessions**. Over the following 24 days it recorded **42**: a lower daily traffic pace. Search visibility persisted, with all seven observed site-level search clicks arriving after September 29.
+
+These are early, modest results rather than a proven ROI story. Earlier measurement coverage is insufficient for a reliable baseline, traffic exclusions and conversion tracking need validation, and later site work prevents attribution to publishing alone.
+
+[Explore the timeline, comparisons and original report screenshots →](docs/MEASURED-RESULTS.md)
+
 ## A guided product tour
+
 
 The following screens demonstrate the shared PowerPortals implementation with fictional records. They show interface work and interaction patterns without exposing production customer information.
 

@@ -35,6 +35,14 @@ Original records document a ten-post Buffer queue, a second ten-entry social pla
 
 The newest public article found was September 29. Current scheduled/draft articles, missed schedules, Buffer delivery and the present queue require authenticated review. Future or draft posts cannot be ruled out from a public listing.
 
+## Measured search and traffic results
+
+Authenticated reporting was reviewed on October 24 after this public-page audit. Search Console supplied 32 daily rows totaling 1,197 impressions and 7 site-level clicks; GA4 recorded 100 sessions and 55 engaged sessions for September 22–October 23. Source attribution identified 36 Facebook-related sessions. These findings supersede the earlier lack of reporting access, while search-performance improvement and ROI still require a reliable baseline and attribution evidence.
+
+The inspected Facebook history showed initial entries on August 7, text promotions beginning September 22 and the latest observed promotion on September 29. Historical queue records are now supplemented by observed published-post dates. Current future scheduling and ordinary WordPress administration were not audited by this measurement review.
+
+[Full measured-results case study and original report images](MEASURED-RESULTS.md).
+
 ## Backlink strategy and measurement
 
 No backlink campaign ledger or referring-domain report was located in the reviewed project records. The portfolio therefore does not claim completed link acquisition or a measured increase in authority. This does not establish that the website has no backlinks.

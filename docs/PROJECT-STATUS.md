@@ -28,6 +28,8 @@ Prepared October 24, 2026. Public website captures and the anonymous SEO, crawle
 
 ## Completion language
 
+Authenticated reporting was subsequently reviewed October 24: [measured results](MEASURED-RESULTS.md) documents the exact reporting scopes, 1,197 Search Console impressions and 7 clicks, GA4 sessions and engagement, and observed Facebook publication boundaries. Earlier statements about unavailable performance access are superseded for those specific reports. There is still no reliable pre-campaign baseline, validated ROI or complete conversion attribution.
+
 Content reconciliation on October 24 established 12 public articles dated September 22–29. All articles and the Guides hub passed the scoped public metadata checks. Historical social queue records were recovered, including corrected guide promotions; present schedules and delivery remain unverified. Backlink acquisition has no located campaign ledger or referring-domain report. Those findings expand the evidence without claiming continuous publishing or search-performance gains.
 
 SEO and accessibility scope: title/description and sharing metadata, canonical URLs, business/service structured data, ARIA markup and a reachable sitemap were observed. `robots.txt` grouping and template-sitemap hygiene still need review. `/llms.txt` and `/bots.txt` returned 404. Multiple H1 elements in the full HTML require visible/template heading review. No search-ranking, performance or accessibility certification is asserted. [Detailed walkthrough](SEO-ACCESSIBILITY-AND-DETAIL.md).
