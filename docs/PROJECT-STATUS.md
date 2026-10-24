@@ -6,7 +6,7 @@ Prepared October 24, 2026. Public website captures are current to that date. Ope
 
 ## What the portfolio contains
 
-- Actual public 305UGC homepage captures at desktop and phone widths.
+- Actual public 305UGC homepage captures at desktop and phone widths, plus the live public quote form.
 - A custom case-study cover and explanatory architecture diagram.
 - Shared-platform interface captures from an isolated PowerPortals test installation with fictional data.
 - Engineering explanations covering web design, mobile UX, guided intake, CRM transport, access boundaries, and automation decisions.
@@ -16,7 +16,7 @@ Prepared October 24, 2026. Public website captures are current to that date. Ope
 | Area | Classification |
 |:---|:---|
 | Public homepage | Observed live October 24 at 1440 × 1000 and 390 × 844 viewports |
-| Intake rendering | Confirmed in the October 16 review |
+| Intake rendering | Confirmed in the October 16 review and observed again on the public quote page October 24; no submission performed |
 | Administrative CRM reads | Demonstrated in the October 16 review |
 | Customer service Case delivery | Existing matching records demonstrated in the October 16 review |
 | New Lead delivery and customer invitation | Configured/documented; full live acceptance remained pending |
@@ -38,4 +38,4 @@ No performance score, lead-conversion improvement, uptime percentage, time-saved
 
 ## Evidence provenance
 
-The source review used the local 305 launch-readiness assessment dated October 16, the shared intake architecture contract dated October 9, and existing PowerPortals media provenance notes dated October 10. Private operational review files remain outside this public repository. The only new live check for this showcase was read-only public homepage observation and responsive capture.
+The source review used the local 305 launch-readiness assessment dated October 16, the shared intake architecture contract dated October 9, and existing PowerPortals media provenance notes dated October 10. Private operational review files remain outside this public repository. New live checks for this showcase were read-only observation and capture of the public homepage and quote form.

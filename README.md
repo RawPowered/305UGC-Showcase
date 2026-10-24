@@ -10,7 +10,7 @@ A visual case study of the 305 Underground Construction website: responsive web 
 
 <p align="center"><a href="https://305undergroundconstruction.com">Visit the website ↗</a> · <a href="#desktop-to-mobile">Desktop & mobile</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="docs/CRM-AND-AUTOMATION.md">CRM & automation</a> · <a href="docs/SECURITY-PRACTICES.md">Security practices</a></p>
 
-> **Evidence, clearly labeled.** Website screenshots were captured from the public 305UGC homepage on October 24, 2026. Workflow screenshots are from an isolated PowerPortals test installation using fictional data, captured October 10; they illustrate the shared platform, not live 305 customer records. The latest reviewed implementation evidence is dated October 16. Deployed components and configured integrations do not yet establish a fully accepted end-to-end customer journey. [Scope and verification →](docs/PROJECT-STATUS.md)
+> **Evidence, clearly labeled.** Website screenshots were captured from the public 305UGC homepage and quote form on October 24, 2026. Shared-platform workflow screenshots are from an isolated PowerPortals test installation using fictional data, captured October 10; they are not live 305 customer records. The latest reviewed operational implementation evidence is dated October 16. Deployed components and configured integrations do not yet establish a fully accepted end-to-end customer journey. [Scope and verification →](docs/PROJECT-STATUS.md)
 
 ## The brief
 
@@ -41,6 +41,14 @@ The live website uses a restrained construction palette, large editorial heading
 - **Depth behind the headline.** Service stories and project galleries let visitors move from broad capability to a concrete example of the work.
 - **A repeatable next step.** Quote entry points appear throughout the experience, with the page of origin carried in the URL for context.
 - **Continuity after the inquiry.** The website introduces customer access alongside the public-facing service story.
+
+## The live 305UGC quote experience
+
+The public quote page carries the company presentation into an eight-step project request. It opens with visual project choices and offers a full-form option. This capture shows the actual 305UGC interface, viewed anonymously on October 24 without entering customer information or submitting a request.
+
+<img src="assets/screenshots/305-live-intake.png" alt="Actual public 305UGC quote form showing the company-branded introduction, eight-step navigation and visual project selector" width="900">
+
+*Public rendering evidence only. Viewing the form does not verify remote delivery, invitation email, or the full CRM round trip.*
 
 ## A guided product tour
 
