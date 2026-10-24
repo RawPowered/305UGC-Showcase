@@ -2,7 +2,7 @@
 
 [← Return to the showcase](../README.md)
 
-Prepared October 24, 2026. Public website captures are current to that date. Operational claims use the October 16, 2026 launch-readiness assessment and the October 9 architecture contract. They are historical, bounded findings and are not a new production audit.
+Prepared October 24, 2026. Public website captures and the anonymous SEO, crawler, ARIA-markup and customer-portal header checks are current to that date. Operational claims use the October 16 launch-readiness assessment and October 9 architecture contract. Website maintenance claims additionally use the October 21 security assessment, whose hosting remediation remained unverified. These are bounded findings, not a full production audit.
 
 ## What the portfolio contains
 
@@ -27,6 +27,8 @@ Prepared October 24, 2026. Public website captures are current to that date. Ope
 | Capacity, retry recovery and restore | Acceptance evidence remained required |
 
 ## Completion language
+
+SEO and accessibility scope: title/description and sharing metadata, canonical URLs, business/service structured data, ARIA markup and a reachable sitemap were observed. `robots.txt` grouping and template-sitemap hygiene still need review. `/llms.txt` and `/bots.txt` returned 404. Multiple H1 elements in the full HTML require visible/template heading review. No search-ranking, performance or accessibility certification is asserted. [Detailed walkthrough](SEO-ACCESSIBILITY-AND-DETAIL.md).
 
 The implementation can be presented as a substantial delivered website and connected platform with documented engineering depth. Full customer-journey launch certification was held in the latest reviewed assessment. This showcase does not convert configured capabilities, local candidates, historical checks, or illustrative screens into a claim of production acceptance.
 

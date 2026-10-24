@@ -50,6 +50,16 @@ The public quote page carries the company presentation into an eight-step projec
 
 *Public rendering evidence only. Viewing the form does not verify remote delivery, invitation email, or the full CRM round trip.*
 
+## SEO, accessibility and the details behind the design
+
+The October 11 homepage release aligned the SEO title, description and social preview with remodeling, construction and storm recovery. Live checks on October 24 confirmed self-canonical URLs, Open Graph metadata, LocalBusiness and nine-service OfferCatalog structured data, and a reachable XML sitemap index.
+
+The homepage, quote page and customer portal also expose named controls and regions through ARIA, including `aria-label`, `aria-labelledby`, `aria-expanded`, and `aria-controls`. Quote and portal markup includes live-announcement regions; inspected pages include skip links and descriptive image alternatives. These details support accessibility intent and require behavioral testing to establish conformance.
+
+Crawler work is documented precisely: `robots.txt` is present with a sitemap reference, but its portal exclusion grouping needs review. `/llms.txt` and `/bots.txt` returned 404 on October 24, so they remain unverified deployment items. Portal noindex directives were independently observed. Search guidance does not replace access control.
+
+[Explore SEO, crawler files, ARIA and attention to detail →](docs/SEO-ACCESSIBILITY-AND-DETAIL.md)
+
 ## A guided product tour
 
 The following screens demonstrate the shared PowerPortals implementation with fictional records. They show interface work and interaction patterns without exposing production customer information.
@@ -117,7 +127,7 @@ flowchart LR
 
 ## Security practices built into the approach
 
-Identity, role checks, record scope, customer membership, and document release rules form separate layers. The implementation uses server-side CRM access and protects portal responses from shared caching on the paths checked in the October 16 review. Protected documents require authorization and a controlled release path.
+Identity, role checks, record scope, customer membership, and document release rules form separate layers. The implementation uses server-side CRM access and protects portal responses from shared caching on the paths checked in the October 16 review. The October 24 customer-portal response independently confirmed private/no-store caching, noindex/nofollow, and a no-referrer policy. Protected documents require authorization and a controlled release path. Website-level reviews also cover WordPress integrity, login/firewall tooling, hosting maintenance and recovery readiness, with remaining verification tracked separately.
 
 Security is presented here as engineering practice backed by bounded checks, with additional acceptance work explicitly tracked. This portfolio does not claim an independent security audit, universal access-control coverage, or compliance certification.
 
