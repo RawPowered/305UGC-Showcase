@@ -1,16 +1,14 @@
 <p align="center"><strong>RAWPOWERED / SELECTED WORK</strong></p>
 
-# 305UGC — Website & CRM Showcase
+<h1 align="center">305UGC</h1>
 
-**From first impression to connected operations.**
-
-A visual case study of the 305 Underground Construction website: responsive web design, guided project intake, focused team interfaces, and a WordPress–Zoho CRM integration built around the customer journey.
+<p align="center"><strong>From first impression to connected operations.</strong><br>Website design · Mobile UX · Search & content · WordPress–Zoho CRM</p>
 
 ![305UGC portfolio case study](assets/305ugc-cover.svg)
 
-<p align="center"><a href="https://305undergroundconstruction.com">Visit the website ↗</a> · <a href="#desktop-to-mobile">Desktop & mobile</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="docs/CRM-AND-AUTOMATION.md">CRM & automation</a> · <a href="docs/SECURITY-PRACTICES.md">Security practices</a></p>
+<p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
 
-> **Evidence, clearly labeled.** Website screenshots were captured from the public 305UGC homepage and quote form on October 24, 2026. Shared-platform workflow screenshots are from an isolated PowerPortals test installation using fictional data, captured October 10; they are not live 305 customer records. The latest reviewed operational implementation evidence is dated October 16. Deployed components and configured integrations do not yet establish a fully accepted end-to-end customer journey. [Scope and verification →](docs/PROJECT-STATUS.md)
+> **About the visuals:** website and quote-form captures show the public 305UGC site on October 24, 2026. PowerPortals workflow screens show an isolated shared-platform installation with fictional records. Operational acceptance is tracked separately in the [evidence notes](docs/PROJECT-STATUS.md).
 
 ## The brief
 
@@ -22,6 +20,7 @@ The portfolio value is in the relationship between the design and the workflow. 
 |:---|:---|
 | Web design | Construction-focused visual hierarchy, service storytelling, selected project galleries, and consistent quote entry points |
 | Mobile interface | Responsive typography, compact navigation, touch-sized actions, and vertically arranged content |
+| Search & content | Twelve published guides, search and sharing metadata, structured data, and documented social scheduling |
 | Product development | Guided project questions, service-specific branches, property context, and optional account enrollment |
 | CRM integration | Shared server-side OAuth, governed API transport, field mapping, durable request identifiers, and scoped operational reads |
 | Security engineering | Layered identity and record access, private response policies, protected documents, and separation of account and project approval |
@@ -33,7 +32,7 @@ The live website uses a restrained construction palette, large editorial heading
 
 <table><tr><th>Desktop · 1440 × 1000 viewport</th><th>Mobile · 390 × 844 viewport</th></tr><tr><td width="75%"><a href="assets/screenshots/305-desktop.png"><img src="assets/screenshots/305-desktop.png" alt="Actual 305UGC public homepage at desktop width, with full navigation and a remodeling and construction hero"></a></td><td width="25%"><a href="assets/screenshots/305-mobile.png"><img src="assets/screenshots/305-mobile.png" alt="Actual 305UGC public homepage at phone width, with compact menu, quote action and stacked headline"></a></td></tr></table>
 
-*Actual public website captures, October 24, 2026. These show the rendered layouts at two viewport sizes; they are not performance, accessibility, or device-lab certifications.*
+*Actual public website · October 24, 2026. Select a capture to inspect it at full size.*
 
 ### Design decisions with a purpose
 
@@ -50,15 +49,23 @@ The public quote page carries the company presentation into an eight-step projec
 
 *Public rendering evidence only. Viewing the form does not verify remote delivery, invitation email, or the full CRM round trip.*
 
-## SEO, accessibility and the details behind the design
+## Search, content and discovery
+
+![305UGC search and content foundation: twelve published guides and thirteen public pages checked](assets/305ugc-search-content.svg)
+
+The SEO work extends beyond the homepage. **Twelve live guides** cover construction planning, roof comparisons, drainage, home additions, land clearing, demolition, paving, and storm preparation. The [Guides hub](https://305undergroundconstruction.com/guides/) gives that content a public entry point.
+
+On October 24, all twelve articles and the hub returned HTTP 200 with descriptions, self-referencing canonicals, index/follow directives, and JSON-LD blocks. Original project records also document descriptive image filenames, alt text, titles, business/contact schema, and historical Buffer scheduling.
 
 The October 11 homepage release aligned the SEO title, description and social preview with remodeling, construction and storm recovery. Live checks on October 24 confirmed self-canonical URLs, Open Graph metadata, LocalBusiness and nine-service OfferCatalog structured data, and a reachable XML sitemap index.
 
 The homepage, quote page and customer portal also expose named controls and regions through ARIA, including `aria-label`, `aria-labelledby`, `aria-expanded`, and `aria-controls`. Quote and portal markup includes live-announcement regions; inspected pages include skip links and descriptive image alternatives. These details support accessibility intent and require behavioral testing to establish conformance.
 
-Crawler work is documented precisely: `robots.txt` is present with a sitemap reference, but its portal exclusion grouping needs review. `/llms.txt` and `/bots.txt` returned 404 on October 24, so they remain unverified deployment items. Portal noindex directives were independently observed. Search guidance does not replace access control.
+Crawler work is documented precisely: `robots.txt` is present with a sitemap reference, but its portal exclusion grouping needs review. Replacement `llms.txt` and `bots.txt` files are prepared in the private 305UGC build; public deployment is pending. Portal noindex directives were independently observed. Search guidance does not replace access control.
 
-[Explore SEO, crawler files, ARIA and attention to detail →](docs/SEO-ACCESSIBILITY-AND-DETAIL.md)
+The newest public article found is dated September 29. Continuing the editorial schedule, confirming current social delivery, and measuring search performance remain follow-up work. Backlink acquisition has not been substantiated by a campaign log or referring-domain report.
+
+[Explore SEO, publishing history, crawler files and ARIA →](docs/SEO-ACCESSIBILITY-AND-DETAIL.md)
 
 ## A guided product tour
 
@@ -97,9 +104,8 @@ Sales filters help narrow an already authorized set of records. Project and fiel
 ## How the system fits together
 
 ```mermaid
-flowchart LR
-    V[Website visitor] --> W[305UGC WordPress website]
-    W --> I[Guided project request]
+flowchart TD
+    V[305UGC website visitor] --> I[Guided project request]
     I --> R[Durable local receipt]
     R --> G[Governed server-side CRM client]
     G --> Z[Zoho CRM]
@@ -108,6 +114,7 @@ flowchart LR
     Z --> S[Authorized operational workspaces]
     P --> M[Separate staff reconciliation and project membership]
     M --> C[Scoped customer portal]
+    Z -. Staff reconciliation .-> M
 ```
 
 *This diagram describes the implementation architecture and its approval boundary. The complete live journey remains subject to acceptance testing; Lead conversion does not automatically grant customer project membership.*
@@ -129,7 +136,7 @@ flowchart LR
 
 Identity, role checks, record scope, customer membership, and document release rules form separate layers. The implementation uses server-side CRM access and protects portal responses from shared caching on the paths checked in the October 16 review. The October 24 customer-portal response independently confirmed private/no-store caching, noindex/nofollow, and a no-referrer policy. Protected documents require authorization and a controlled release path. Website-level reviews also cover WordPress integrity, login/firewall tooling, hosting maintenance and recovery readiness, with remaining verification tracked separately.
 
-Security is presented here as engineering practice backed by bounded checks, with additional acceptance work explicitly tracked. This portfolio does not claim an independent security audit, universal access-control coverage, or compliance certification.
+Recorded maintenance work includes core integrity checks, login/firewall tooling, scoped anonymous access tests, and recovery requirements. Remaining acceptance and maintenance verification are tracked in the supporting notes.
 
 [Explore the access and security approach →](docs/SECURITY-PRACTICES.md)
 
@@ -138,14 +145,15 @@ Security is presented here as engineering practice backed by bounded checks, wit
 | Evidence category | What is established |
 |:---|:---|
 | Public website | Live desktop and mobile homepage captures on October 24; visible service content, quote entry points, gallery, and customer portal links |
+| Search & content | Twelve published articles and the Guides hub checked October 24; historical SEO and social scheduling records reconciled separately |
 | Reviewed deployment | October 16 review recorded deployed intake and portal components, working administrative CRM reads, and existing service requests with matching Zoho Cases |
 | Demonstration media | Fictional-data intake, Sales, project, and field screens from an isolated shared-platform installation |
 | Remaining acceptance | Controlled intake-to-Lead and invitation round trip, conversion handoff, ordinary-role workflows and revocation, capacity/retry recovery, isolated restore, and authorized signed-document release |
 
-The project demonstrates a substantial implemented website and connected platform. The evidence does **not** yet support an unqualified “100% production complete” claim. [Detailed status →](docs/PROJECT-STATUS.md)
+This portfolio presents implemented work and bounded verification. Full live acceptance, measured search or business gains, independent security assessment, and accessibility conformance require their own evidence. [Detailed evidence and status →](docs/PROJECT-STATUS.md)
 
-## Explore the work
+---
 
-[305UGC live website](https://305undergroundconstruction.com) · [PowerPortals product showcase](https://github.com/RawPowered/PowerPortals-Showcase) · [RawPowered](https://github.com/RawPowered)
+<p align="center"><strong>Explore the work</strong><br><a href="https://305undergroundconstruction.com">305UGC live website</a> · <a href="https://github.com/RawPowered/PowerPortals-Showcase">PowerPortals product showcase</a> · <a href="https://github.com/RawPowered">RawPowered</a></p>
 
 This repository contains portfolio documentation and presentation media only. Production software, credentials, customer records, and installable packages are excluded. No software license is granted. WordPress and Zoho marks belong to their respective owners; no platform endorsement is implied.

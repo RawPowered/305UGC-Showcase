@@ -20,7 +20,32 @@ The website work extends beyond its visible layout. Metadata, structured content
 
 Structured data helps describe the content; it does not guarantee rich results. Metadata and sitemap availability do not establish Google indexing, ranking, traffic or conversion improvements. Search Console acceptance and measured mobile Core Web Vitals remain separate work.
 
+## Blog SEO and publishing continuity
+
+On October 24, the anonymous WordPress post listing returned **12 published guides**, dated September 22–29. Each article and the Guides hub was fetched independently: all **13 pages** returned HTTP 200 with descriptions, self-referencing canonical URLs, index/follow directives and JSON-LD blocks. These are implementation checks, not evidence of Google-selected canonicals, ranking or traffic gains.
+
+Selected public examples:
+
+- [Construction planning: from site walk to project ready](https://305undergroundconstruction.com/2026/09/29/florida-construction-planning-guide-from-site-walk-to-project-ready/)
+- [Shingle, metal and tile roof comparisons](https://305undergroundconstruction.com/2026/09/27/shingle-vs-metal-vs-tile-roof-florida/)
+- [Home-addition cost and planning guide](https://305undergroundconstruction.com/2026/09/27/florida-home-addition-cost-guide/)
+- [Browse the Guides hub](https://305undergroundconstruction.com/guides/)
+
+Original records document a ten-post Buffer queue, a second ten-entry social plan and a later correction of two guide promotions scheduled for September 28–29. The second plan also records queue-capacity pressure; it must not be presented as ten independently confirmed deliveries. These records demonstrate historical publishing work, not a current active schedule or verified delivery of every post.
+
+The newest public article found was September 29. Current scheduled/draft articles, missed schedules, Buffer delivery and the present queue require authenticated review. Future or draft posts cannot be ruled out from a public listing.
+
+## Backlink strategy and measurement
+
+No backlink campaign ledger or referring-domain report was located in the reviewed project records. The portfolio therefore does not claim completed link acquisition or a measured increase in authority. This does not establish that the website has no backlinks.
+
+The next measurable step is an authorized baseline of referring domains and linked pages, followed by a ledger of relevant opportunities, editorial rationale, target resource, approval, placement URL and verification date. Genuine project/supplier credits, relevant local associations and useful original project reporting are potential avenues to evaluate. No outreach, paid listing, placement or resulting link is claimed here.
+
+Avoid buying ranking links, automated link creation, excessive exchanges and low-quality directory submissions. These are covered by [Google's link-spam policies](https://developers.google.com/search/docs/essentials/spam-policies#link-spam).
+
 ## Crawler files and AI-readable guidance
+
+Replacement `llms.txt` and `bots.txt` assets were subsequently prepared in the private 305UGC build on October 24. Their release status is **prepared; not verified live**. They are separate website-root assets, so plugin-only deployment does not install them.
 
 | Public path | October 24 observation | Portfolio interpretation |
 |:---|:---|:---|
