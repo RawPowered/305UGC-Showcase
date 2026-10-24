@@ -63,7 +63,7 @@ The homepage, quote page and customer portal also expose named controls and regi
 
 Crawler work is documented precisely: `robots.txt` is present with a sitemap reference, but its portal exclusion grouping needs review. Replacement `llms.txt` and `bots.txt` files are prepared in the private 305UGC build; public deployment is pending. Portal noindex directives were independently observed. Search guidance does not replace access control.
 
-The newest public article found is dated September 29. Continuing the editorial schedule, confirming current social delivery, and measuring search performance remain follow-up work. Backlink acquisition has not been substantiated by a campaign log or referring-domain report.
+The newest public article found is dated September 29. Continuing the editorial schedule, confirming future social delivery, and maintaining the measurement record remain follow-up work. The initial Analytics, Search Console and Facebook review is documented below. Backlink acquisition has not been substantiated by a campaign log or referring-domain report.
 
 [Explore SEO, publishing history, crawler files and ARIA →](docs/SEO-ACCESSIBILITY-AND-DETAIL.md)
 
@@ -170,7 +170,7 @@ Recorded maintenance work includes core integrity checks, login/firewall tooling
 | Demonstration media | Fictional-data intake, Sales, project, and field screens from an isolated shared-platform installation |
 | Remaining acceptance | Controlled intake-to-Lead and invitation round trip, conversion handoff, ordinary-role workflows and revocation, capacity/retry recovery, isolated restore, and authorized signed-document release |
 
-This portfolio presents implemented work and bounded verification. Full live acceptance, measured search or business gains, independent security assessment, and accessibility conformance require their own evidence. [Detailed evidence and status →](docs/PROJECT-STATUS.md)
+This portfolio presents implemented work and bounded verification. Initial search exposure and website traffic are documented above. Full live acceptance, attributable business gains, independent security assessment, and accessibility conformance require their own evidence. [Detailed evidence and status →](docs/PROJECT-STATUS.md)
 
 ---
 
