@@ -11,5 +11,6 @@
 | `sales-portal.png` | Same isolated installation | Shared-platform demonstration with fictional records |
 | `project-portal.png` | Same isolated installation | Shared-platform demonstration with fictional records |
 | `field-portal.png` | Same isolated installation | Shared-platform demonstration with fictional records |
+| `site-preservation-2026-10-25/` | 58 public 305UGC content pages on October 25, 2026, plus nine mobile full-page views | Dated visual archive; start at [`docs/SITE-PRESERVATION.md`](../../docs/SITE-PRESERVATION.md) |
 
 The workflow screenshots were reused from the existing PowerPortals showcase media set. They are not live 305UGC customer screens. The cover SVG is an original portfolio illustration, not an application capture. `../305ugc-search-content.svg` is an original editorial graphic summarizing the October 24 public article checks; its numbers are counts, not performance scores. Capture dimensions do not establish conformance or real-device testing.

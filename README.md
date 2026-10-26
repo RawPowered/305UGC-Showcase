@@ -6,7 +6,7 @@
 
 ![305UGC portfolio case study](assets/305ugc-cover.svg)
 
-<p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#early-measured-results">Measured results</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
+<p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="docs/SITE-PRESERVATION.md">Full-site screenshot archive</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#early-measured-results">Measured results</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
 
 > **About the visuals:** website and quote-form captures show the public 305UGC site on October 24, 2026. PowerPortals workflow screens show an isolated shared-platform installation with fictional records. Operational acceptance is tracked separately in the [evidence notes](docs/PROJECT-STATUS.md).
 
@@ -33,6 +33,12 @@ The live website uses a restrained construction palette, large editorial heading
 <table><tr><th>Desktop · 1440 × 1000 viewport</th><th>Mobile · 390 × 844 viewport</th></tr><tr><td width="75%"><a href="assets/screenshots/305-desktop.png"><img src="assets/screenshots/305-desktop.png" alt="Actual 305UGC public homepage at desktop width, with full navigation and a remodeling and construction hero"></a></td><td width="25%"><a href="assets/screenshots/305-mobile.png"><img src="assets/screenshots/305-mobile.png" alt="Actual 305UGC public homepage at phone width, with compact menu, quote action and stacked headline"></a></td></tr></table>
 
 *Actual public website · October 24, 2026. Select a capture to inspect it at full size.*
+
+### Preserve the complete public-site walkthrough
+
+The site-preservation archive records **58 public pages** across the site, articles, and portfolio, with nine key visitor paths captured at mobile width. Each entry opens a full-page image, preserving the visual experience page by page.
+
+[Open the full-site screenshot walkthrough →](docs/SITE-PRESERVATION.md)
 
 ### Design decisions with a purpose
 
