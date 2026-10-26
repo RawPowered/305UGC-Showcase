@@ -4,6 +4,8 @@
 
 <p align="center"><strong>From first impression to connected operations.</strong><br>Website design · Mobile UX · Search & content · WordPress–Zoho CRM</p>
 
+Built a responsive construction website with service pages, guided project intake, and a documented WordPress–Zoho CRM architecture. The case below shows the website, interface decisions, and integration work.
+
 ![305UGC portfolio case study](assets/305ugc-cover.svg)
 
 <p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="docs/SITE-PRESERVATION.md">Full-site screenshot archive</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#early-measured-results">Measured results</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
