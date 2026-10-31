@@ -2,9 +2,9 @@
 
 <h1 align="center">305UGC</h1>
 
-<p align="center"><strong>From first impression to connected operations.</strong><br>Website design · Mobile UX · Search & content · WordPress–Zoho CRM</p>
+<p align="center"><strong>From first impression to connected operations.</strong><br>Website design · Mobile UX · Search & content · WordPress-Zoho CRM</p>
 
-Built a responsive construction website with service pages, guided project intake, and a documented WordPress–Zoho CRM architecture. The case below shows the website, interface decisions, and integration work.
+Built a responsive construction website with service pages, guided project intake, and a documented WordPress-Zoho CRM architecture. The case below shows the website, interface decisions, and integration work.
 
 ![305UGC portfolio case study](assets/305ugc-cover.svg)
 
@@ -71,28 +71,13 @@ The homepage, quote page and customer portal also expose named controls and regi
 
 Crawler work is documented precisely: `robots.txt` is present with a sitemap reference, but its portal exclusion grouping needs review. Replacement `llms.txt` and `bots.txt` files are prepared in the private 305UGC build; public deployment is pending. Portal noindex directives were independently observed. Search guidance does not replace access control.
 
-The newest public article found is dated September 29. Continuing the editorial schedule, confirming future social delivery, and maintaining the measurement record remain follow-up work. The initial Analytics, Search Console and Facebook review is documented below. Backlink acquisition has not been substantiated by a campaign log or referring-domain report.
+The newest public article found is dated September 29. Continuing the editorial schedule, confirming future social delivery, and maintaining the measurement record remain follow-up work.  Backlink acquisition has not been substantiated by a campaign log or referring-domain report.
 
 [Explore SEO, publishing history, crawler files and ARIA →](docs/SEO-ACCESSIBILITY-AND-DETAIL.md)
 
-## Early measured results
+## Measurement scope
 
-The work now has an initial measurement record from **Google Analytics, Google Search Console and Facebook**, captured October 24. The first observed Facebook entries date to August 7; the focused blog and promotional push ran September 22–29. Later site SEO changes are annotated separately.
-
-![305UGC early results: search exposure, clicks and website traffic during and after publishing](assets/results/measured-results.png)
-
-| Observed result | Reporting scope |
-|:---|:---|
-| **1,197 Google Search impressions · 7 clicks** | Search Console site totals, September 21–October 22 |
-| **100 website sessions · 55 engaged sessions** | GA4, September 22–October 23; all reported sources |
-| **36 Facebook-attributed sessions** | 35 tagged social sessions + 1 mobile Facebook referral |
-| **11 article URLs with search exposure** | Inspected page table: 94 page-level impressions and 1 click; separate from site totals |
-
-During the eight-day publishing push, GA4 recorded **58 sessions**. Over the following 24 days it recorded **42**: a lower daily traffic pace. Search visibility persisted, with all seven observed site-level search clicks arriving after September 29.
-
-These are early, modest results rather than a proven ROI story. Earlier measurement coverage is insufficient for a reliable baseline, traffic exclusions and conversion tracking need validation, and later site work prevents attribution to publishing alone.
-
-[Explore the timeline, comparisons and original report screenshots →](docs/MEASURED-RESULTS.md)
+This showcase focuses on website design, publishing work, accessibility implementation and CRM architecture. Traffic and search metrics are omitted from the public presentation. Attribution and full customer-flow acceptance remain unverified.
 
 ## A guided product tour
 
@@ -178,7 +163,7 @@ Recorded maintenance work includes core integrity checks, login/firewall tooling
 | Demonstration media | Fictional-data intake, Sales, project, and field screens from an isolated shared-platform installation |
 | Remaining acceptance | Controlled intake-to-Lead and invitation round trip, conversion handoff, ordinary-role workflows and revocation, capacity/retry recovery, isolated restore, and authorized signed-document release |
 
-This portfolio presents implemented work and bounded verification. Initial search exposure and website traffic are documented above. Full live acceptance, attributable business gains, independent security assessment, and accessibility conformance require their own evidence. [Detailed evidence and status →](docs/PROJECT-STATUS.md)
+This portfolio presents implemented work and bounded verification. Full live acceptance, attributable business gains, independent security assessment, and accessibility conformance require their own evidence. [Detailed evidence and status →](docs/PROJECT-STATUS.md)
 
 ---
 
