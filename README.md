@@ -8,7 +8,7 @@ Built a responsive construction website with service pages, guided project intak
 
 ![305UGC portfolio case study](assets/305ugc-cover.svg)
 
-<p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="docs/SITE-PRESERVATION.md">Full-site screenshot archive</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#early-measured-results">Measured results</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
+<p align="center"><a href="https://305undergroundconstruction.com">Visit the live website ↗</a> · <a href="#desktop-to-mobile">Web & mobile</a> · <a href="docs/SITE-PRESERVATION.md">Full-site screenshot archive</a> · <a href="#search-content-and-discovery">SEO & content</a> · <a href="#measurement-scope">Measurement scope</a> · <a href="#a-guided-product-tour">Product tour</a> · <a href="#how-the-system-fits-together">Architecture</a> · <a href="docs/SECURITY-PRACTICES.md">Security</a></p>
 
 > **About the visuals:** website and quote-form captures show the public 305UGC site on October 24, 2026. PowerPortals workflow screens show an isolated shared-platform installation with fictional records. Operational acceptance is tracked separately in the [evidence notes](docs/PROJECT-STATUS.md).
 
